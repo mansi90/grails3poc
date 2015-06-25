@@ -28,3 +28,4 @@ if(Environment.current == Environment.DEVELOPMENT) {
 }
 //see http://logback.qos.ch/manual/groovy.html for more info
 logger('org.springframework.boot.autoconfigure.security', INFO)
+logger('org.springframework', INFO)
